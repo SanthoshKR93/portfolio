@@ -45,7 +45,7 @@ export function About() {
             
             <div className="prose prose-invert prose-lg">
               <p className="text-foreground-secondary/90 leading-relaxed">
-                I'm a results-driven Senior Software Engineer with 7+ years of experience building full-stack 
+                I&apos;m a results-driven Senior Software Engineer with 7+ years of experience building full-stack 
                 and backend systems across AI, fintech, and enterprise domains.
               </p>
               
@@ -74,7 +74,7 @@ export function About() {
             initial="hidden"
             animate={isInView ? "show" : "hidden"}
           >
-            {stats.map((stat, index) => (
+            {stats.map((stat) => (
               <motion.div
                 key={stat.label}
                 variants={{

@@ -90,7 +90,7 @@ export function Accomplishments() {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
-            {accomplishments.map((item, index) => (
+            {accomplishments.map((item) => (
               <motion.div
                 key={item.description}
                 variants={{

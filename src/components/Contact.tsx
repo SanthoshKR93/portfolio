@@ -62,7 +62,7 @@ export function Contact() {
                 <span className="gradient-text">Get in Touch</span>
               </h2>
               <p className="text-foreground-secondary/80 max-w-2xl mx-auto">
-                I'm always open to discussing new opportunities and interesting projects.
+                I&apos;m always open to discussing new opportunities and interesting projects.
               </p>
             </motion.div>
           </div>

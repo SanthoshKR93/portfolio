@@ -91,7 +91,7 @@ export function Skills() {
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
-            {skillCategories.map((category, index) => (
+            {skillCategories.map((category) => (
               <motion.div
                 key={category.title}
                 variants={{
